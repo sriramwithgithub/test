@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Database connection string
-DATABASE_URL=$(heroku config:get DATABASE_URL -a hobby-1)
+DATABASE_URL=postgres://u4c8ppmqnpka51:pb1adfc4241ad5cdb09ba2a35835e1f9127a067576bef60a952f23e528c3f191d@ec2-54-174-84-78.compute-1.amazonaws.com:5432/d484jloiiup1kh
 
 # Interval between data sends (in seconds)
 INTERVAL=5
