@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Database connection string
-DATABASE_URL=postgres://@ec2-54-174-84-78.compute-1.amazonaws.com:5432/d484jloiiup1kh
+# DATABASE_URL=$DATABASE
 
 # Interval between data sends (in seconds)
 INTERVAL=5
