@@ -1,0 +1,24 @@
+name: Deploy Script
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up environment
+        run: |
+          echo "Setting up environment"
+
+      - name: Run the script
+        run: |
+          echo "Running your script"
+          bash ./test/script.sh
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}  # Passing the secret as an environment variable
