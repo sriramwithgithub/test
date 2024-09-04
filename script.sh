@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Database connection string
-DATABASE_URL=$(heroku config:get DATABASE_URL -a your-app-name)
+DATABASE_URL=$(heroku config:get DATABASE_URL -a hobby-1)
 
 # Interval between data sends (in seconds)
 INTERVAL=5
