@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Database connection string
-DATABASE_URL=$DATABASE
+DATABASE_URL=$DATABASE_URL
 
 # Interval between data sends (in seconds)
 INTERVAL=5
