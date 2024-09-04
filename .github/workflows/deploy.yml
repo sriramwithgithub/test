@@ -19,6 +19,6 @@ jobs:
       - name: Run the script
         run: |
           echo "Running your script"
-          bash ./test/script.sh
+          bash ./script.sh
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}  # Passing the secret as an environment variable
